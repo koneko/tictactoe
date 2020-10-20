@@ -5,53 +5,45 @@
     <script src="app.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tictactoe</title>
+    <link rel="stylesheet" src="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
     <table id="gameboard">
         <tr>
-            <td id="1">
+            <td id="1" onclick="putshit1()">
                 T
             </td>
-            <td id="11">
+            <td id="11" onclick='putshit11()'>
                 I
             </td>
-            <td id="111">
+            <td id="111" onclick='putshit111()'>
                 C
             </td>
         </tr>
         <tr>
-            <td>
+            <td id="2" onclick='putshit2()'>
                 T
             </td>
-            <td>
+            <td id="22" onclick='putshit22()'>
                 A
             </td>
-            <td>
+            <td id="222" onclick='putshit222()'>
                 C
             </td>
         </tr>
         <tr>
-            <td>
+            <td id="3" onclick='putshit3()'>
                 T
             </td>
-            <td>
+            <td id="33" onclick='putshit33()'>
                 O
             </td>
-            <td>
+            <td id="333" onclick='putshit333()'>
                 E
             </td>
         </tr>
     </table>
 </body>
 </html>
-<style>
 
-
-    td, th {
-      border: 1px solid #dddddd;
-      text-align: left;
-      padding: 8px;
-    }
-    
-    
-    </style>

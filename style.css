@@ -8,4 +8,9 @@ padding: 100px;
 .buton {
     width: 100px;
     height: 100px;
+    background-color: lightseagreen;
+    color: black;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
 }
